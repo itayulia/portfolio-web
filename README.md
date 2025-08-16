@@ -1,2 +1,2 @@
 # portfolio-web
-A portfolio showcasing my projects with live demos. Built with [HTML, CSS, JS] and deployed via GitHub Pages for easy access.
+Welcome to my portfolio. This is a collection of projects I've built. The entire site is hosted on GitHub Pages for easy access.
