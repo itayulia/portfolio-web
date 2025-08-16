@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ita | Developer</title>
+    <link rel="icon" href="assets/tomato.png" type="image/png">
+
+    <!-- Link to Flatpickr (Custom Date Picker) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <!-- Link to Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Link to CSS Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Link to JavaScript -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="#" class="logo">
+            <img src="assets/tomato.png" id="icon" alt="Tomato Icon">
+        </a>
+
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-toggle" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#about">Profile</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact" class="say-hello-btn">Say Hello</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-text">
+            <h1>Welcome <span id="name-input" class="code-style">Name</span>, Fellow Coder!</h1>
+            <p>// I build simple codes
+                <br>// I value thoughtful learning
+                <br>// Every line of code tells a story
+            </p>
+        </div>
+        <div class="hero-image">
+            <img src="assets/banner.jpeg" alt="Profile Banner">
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="about" class="profile">
+        <div class="profile-container">
+            <div class="profile-image">
+                <img src="assets/girl-icon.png" alt="Girl icon" class="profile-pic">
+            </div>
+            <div class="profile-content">
+                <h2>Hi, I'm Ita. <span class="wave">👋</span></h2>
+                <h3 class="tagline">Great to meet you here.</h3>
+                
+                <div class="journey">
+                    <p>My journey began as an administrative professional, but I felt stuck and hungry to learn something new that would challenge me to grow continuously.</p>
+                    <p>Then I discovered my passion for backend engineering - it's like cleaning and organizing data, just like how I love keeping my home tidy! There's something deeply satisfying about preparing clean, structured data before it goes into the database.</p>
+                    <p class="highlight">I'm naturally adaptive and would love the opportunity to work together as partners!</p>
+                </div>
+                
+                <div class="fun-fact">
+                    <img src="assets/cleaning-icon.png" alt="Cleaning icon" class="fun-icon">
+                    <p>Fun fact: My data cleaning skills are as strong as my home cleaning skills!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="portfolio-text">
+            <h2>My Recent Work</h2>
+            <p>Here are projects I've worked on.</p>
+        </div>
+        <div class="portfolio-items">
+            <div class="project">
+                <h3>PROJECT<br>1</h3>
+            </div>
+            <div class="project">
+                <h3>PROJECT<br>2</h3>
+            </div>
+            <div class="project">
+                <h3>PROJECT<br>3</h3>
+            </div>
+        </div>
+        <div class="portfolio-footer">
+            <a href="https://github.com/itayulia" target="_blank" class="github-link">See the codes on Github</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-text">
+            <h2>Glad you stopped by!</h2>
+            <p>Need a hand with something?</p>
+        </div>
+        
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="text" class="date-input" id="dob" name="dob" placeholder="Select Date" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Gender</label>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="gender" value="male" checked>
+                            <span>Male</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="female">
+                            <span>Female</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="footer-text">Committing progress—one line of code (and life) at a time.</p>
+
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/itayuliana/" target="_blank" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/itayuliana_/" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="mailto:iyuliana1507@email.com" class="social-icon">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+
+            <p class="footer-copyright">Handcrafted by Ita © <span class="current-year"></span></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</body>
+</html>
